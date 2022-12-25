@@ -7,26 +7,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- Scripts -->
 		<script src="js/jquery.js"></script>
-		<script src="js/jquery-migrate-1.1.1.js"></script>
 		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
 		<script src="js/scroll_to_top.js"></script>
 		<script src="js/script.js"></script>
-		<script src="js/sForm.js"></script>
-		<script src="js/jquery.equalheights.js"></script>
-		<script src="js/superfish.js"></script>
 		<script src="js/jquery.mobilemenu.js"></script>
-		<script src="js/touchTouch.jquery.js"></script>
-		<script src="js/jquery.tools.min.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/sForm.js"></script>
+		
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		
+		<!-- Font Awesome -->
+        <link rel="stylesheet" type="text/css"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+                integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-		<!-- font-awesome font -->
-		<link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
-		<!-- fontello font -->
+		<!-- Estilos CSS -->
+		<link rel="stylesheet" href="css/style.css">
 
-		<script src="js/camera.js"></script>
-		<script src="js/jquery.mobile.customized.min.js"></script>
 		<style>
 			.slider_txt{
 				position: relative;
@@ -38,12 +42,10 @@
 				max-width: 680px;
 				letter-spacing: -1px;
 			}
-
 		</style>
-
 	</head>
 	<body>
-		<!--button back top-->
+		<!-- Hacia Arriba -->
 		<div id="back-top">Ir a Arriba</div>
 		<div class="main">
 			<div class="div-content">  
@@ -60,7 +62,7 @@
 					<div class="container_12">
 						<div class="grid_12">
 							<div class="grid_9 alpha">
-								<a href="index.html"><img src="images/LogoB.png" alt="Gear" style="width: 150px;"></a>
+								<a href="index.html"><img src="images/LogoB.png" alt="Logo" style="width: 150px;"></a>
 								<nav>
 									<ul class="sf-menu header_menu">
 										<li class="current"><a href="index.html">Inicio<strong></strong></a></li>
@@ -82,7 +84,7 @@
 								</nav>
 							</div>
 							<div class="grid_3 omega">
-								<p class="phone_txt"><i class="icon-phone"></i><span class="color1">+56</span> 2 2833 4015</p>
+								<p class="phone_txt"><i class="fa-solid fa-phone"></i><span class="color1"> +56</span> 2 2833 4015</p>
 							</div>
 						</div>
 					</div>
@@ -131,7 +133,6 @@
 					<span class="visually-hidden">Anterior</span>
 					</button>
 				</div>
-
 
 				<div class="container_12">
 					<div class="grid_12">
@@ -196,11 +197,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="clear">						
-						</div>
+						<div class="clear"></div>
 					</div>
 				</div>
-				<!--Footer-->
+				<!-- Footer -->
 				<footer>
 					<div class="footer_priv">
 						<div class="container_12">
@@ -252,25 +252,20 @@
 			</div>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		
 		<script type="text/javascript">
-
-			$(document).ready(function(){
-				// Initialize the gallery
-				$('.magnifier2').touchTouch();
-			});
-			
-			
+			// Funciones para validar correo
 			function myFocus(element){
-			if (element.value == element.defaultValue){
-				element.focus();
-				element.value = '';
-			}
+				if (element.value == element.defaultValue){
+					element.focus();
+					element.value = '';
+				}
 			}
 			function myBlur(element){
-			if (element.value == ''){
-				element.blur();
-				element.value = element.defaultValue;
-			}
+				if (element.value == ''){
+					element.blur();
+					element.value = element.defaultValue;
+				}
 			}
 
 		</script>

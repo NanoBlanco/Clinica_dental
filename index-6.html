@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<title>Politicas</title>
 		<meta charset="utf-8">
 		<meta name = "format-detection" content = "telephone=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="css/style.css">
+
+		<!--Scripts -->
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery-migrate-1.1.1.js"></script>
 		<script src="js/jquery.easing.1.3.js"></script>
@@ -16,15 +18,18 @@
 		<script src="js/jquery.equalheights.js"></script>
 		<script src="js/superfish.js"></script>
 		<script src="js/jquery.mobilemenu.js"></script>
-		<script src="js/touchTouch.jquery.js"></script>
-		<script src="js/jquery.tools.min.js"></script>
 
-		<!-- font-awesome font -->
-		<link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
-		<!-- fontello font -->
+		<!-- Font Awesome -->
+        <link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+		<!-- Estilos CSS-->
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<!--button back top-->
+		<!--Hacia Arriba-->
 		<div id="back-top">Ir a Arriba</div>
 		<div class="main">
 			<div class="div-content">  
@@ -37,12 +42,12 @@
 				</div>
 			</div>
 
-			<!--==============================header=================================-->
+			<!--Header-->
 			<header>
 				<div class="container_12">
 					<div class="grid_12">
 						<div class="grid_9 alpha">
-							<a href="index.html"><img src="images/LogoB.png" alt="Gear" style="width: 150px;"></a>
+							<a href="index.html"><img src="images/LogoB.png" alt="Logo" style="width: 150px;"></a>
 							<nav>
 								<ul class="sf-menu header_menu">
 									<li><a href="index.html">Inicio<strong></strong></a></li>
@@ -63,13 +68,13 @@
 							</nav>
 						</div>
 						<div class="grid_3 omega">
-							<p class="phone_txt"><i class="icon-phone"></i><span class="color1">+56</span> 2 2833 4015</p>
+							<p class="phone_txt"><i class="fa-solid fa-phone"></i><span class="color1"> +56</span> 2 2833 4015</p>
 						</div>
 					</div>
 				</div>
 			</header>
 
-			<!--=======content================================-->
+			<!--contenido-->
 			<div class="container_12">
 				<div class="grid_12">
 					<div class="wrapper">
@@ -111,7 +116,7 @@
 					</div>
 				</div>
 			</div>
-			<!--=======footer=================================-->
+			<!--footer-->
 			<footer>
 				<div class="footer_priv">
 					<div class="container_12">
@@ -162,7 +167,7 @@
 			</footer>
 		</div>
 		<script type="text/javascript">
-
+			// Funciones para validar correo
 			function myFocus(element){
 			if (element.value == element.defaultValue){
 				element.focus();
@@ -177,6 +182,5 @@
 			}
 
 		</script>
-		<!-- Coded by Val -->
 	</body>
 </html>
